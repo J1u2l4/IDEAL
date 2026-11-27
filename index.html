@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#182060">
+<title>Ideal Cleaning Services Ltd | Cleaning, Sanitary &amp; Pest Control in Lusaka</title>
+<meta name="description" content="Ideal Cleaning Services Ltd is a proudly Zambian company offering domestic and commercial cleaning, sanitary services, pest control and landscaping in Lusaka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#182060;--navy2:#10174a;--red:#ea0029;--red2:#c70022;--grey:#8b8b8a;--paper:#fefdfd;--ink:#0f0f10;--mist:#f2f3f8;--line:#e3e4ec;--muted:#59595b;--shadow:0 24px 50px -28px rgba(24,32,96,.5)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;font:400 1.04rem/1.7 'Mulish',system-ui,sans-serif;background:var(--paper);color:var(--ink);overflow-x:clip}
+img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{margin:0;font-weight:800;line-height:1.12;letter-spacing:-.02em;color:var(--navy)}
+h2{font-size:clamp(1.9rem,4vw,2.9rem)}h3{font-size:1.25rem}p{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+section{padding:96px 0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--red);font-weight:800;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+.eyebrow::before{content:"";width:28px;height:3px;border-radius:3px;background:var(--red)}
+.lead{color:var(--muted);font-size:1.1rem;max-width:58ch;margin-top:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--red);color:#fff;font:800 .98rem 'Mulish',sans-serif;text-decoration:none;border:0;border-radius:12px;padding:15px 28px;cursor:pointer;transition:transform .25s,background .25s,box-shadow .25s}
+.btn:hover{background:var(--red2);transform:translateY(-3px);box-shadow:0 14px 26px -12px rgba(234,0,41,.7)}
+.btn.navy{background:var(--navy)}.btn.navy:hover{background:var(--navy2);box-shadow:0 14px 26px -12px rgba(24,32,96,.7)}
+.btn.ghost{background:transparent;color:#fff;padding:15px 6px}.btn.ghost:hover{background:transparent;box-shadow:none;text-decoration:underline}
+.btn svg{width:20px;height:20px}
+.i{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding:14px 14px 0}
+.bar{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:18px;background:#fff;border-radius:18px;padding:8px 12px 8px 16px;box-shadow:0 16px 36px -22px rgba(15,15,16,.6);position:relative}
+.brand img{height:50px;width:auto}
+.nav{display:flex;align-items:center;gap:30px;margin-left:auto}
+.nav a:not(.btn){text-decoration:none;font-weight:700;font-size:.96rem;color:var(--navy);position:relative;padding:4px 0}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:3px;border-radius:3px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.nav a:not(.btn):hover::after{transform:scaleX(1)}
+.nav .btn{padding:12px 22px}
+.menu{display:none;margin-left:auto;flex:none;width:48px;height:48px;border-radius:14px;border:0;background:var(--navy);color:#fff;cursor:pointer;place-items:center}
+.menu svg{width:24px;height:24px}
+/* hero */
+.hero{background:var(--navy);color:#fff;padding:150px 0 170px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.14) 1.3px,transparent 1.6px);background-size:24px 24px;-webkit-mask-image:linear-gradient(100deg,#000 5%,transparent 55%);mask-image:linear-gradient(100deg,#000 5%,transparent 55%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 16px;font-size:.86rem;font-weight:700;margin-bottom:24px}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(234,0,41,.3)}
+.hero h1{color:#fff;font-size:clamp(2.5rem,5.4vw,4.3rem);font-weight:800}
+.hero h1 em{font-style:normal;color:#ff4d6a}
+.hero p.sub{color:#d3d5ea;font-size:1.12rem;max-width:48ch;margin-top:22px}
+.acts{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:34px}
+.hero-art{position:relative;max-width:470px;justify-self:end;width:100%}
+.hero-art::before{content:"";position:absolute;inset:34px -22px -22px 34px;border-radius:30px 120px 30px 30px;background:var(--red)}
+.hero-art .ph{position:relative;border-radius:30px 120px 30px 30px;overflow:hidden;aspect-ratio:4/4.7;background:var(--navy2)}
+.hero-art .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.bub{position:absolute;border-radius:50%;border:2px solid rgba(255,255,255,.55);animation:float 6s ease-in-out infinite}
+.bub.b1{width:30px;height:30px;top:-14px;left:12%}.bub.b2{width:16px;height:16px;top:26px;left:4%;animation-delay:-2s}.bub.b3{width:22px;height:22px;top:6px;right:-10px;animation-delay:-4s;border-color:#fff}
+@keyframes float{50%{transform:translateY(-10px)}}
+.chip{position:absolute;z-index:2;background:#fff;color:var(--navy);border-radius:16px;box-shadow:0 18px 34px -16px rgba(0,0,0,.55);display:flex;align-items:center;gap:12px;padding:12px 16px;font-weight:800;line-height:1.25}
+.chip small{display:block;font-weight:600;color:var(--muted);font-size:.8rem}
+.chip .dot{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--navy);color:#fff}
+.chip.c1{left:-34px;bottom:30px}.chip.c2{right:-14px;top:66px}.chip.c2 .dot{background:var(--red)}
+/* features overlap */
+.features{margin-top:-96px;padding:0;position:relative;z-index:3}
+.fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.fcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:var(--shadow);display:flex;gap:18px;align-items:flex-start;transition:transform .3s}
+.fcard:hover{transform:translateY(-6px)}
+.fic{width:54px;height:54px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;flex:none}
+.fcard p{color:var(--muted);font-size:.96rem;margin-top:8px}
+/* about */
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.stack{position:relative;padding-bottom:70px}
+.stack .a{border-radius:28px;overflow:hidden;aspect-ratio:4/3.3;width:88%;box-shadow:var(--shadow)}
+.stack .b{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:4/3.4;border-radius:24px;overflow:hidden;border:7px solid var(--paper);box-shadow:var(--shadow)}
+.stack img{width:100%;height:100%;object-fit:cover}
+.ticks{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:14px 20px}
+.ticks li{display:flex;align-items:center;gap:12px;font-weight:700;color:var(--navy);line-height:1.3}
+.tk{width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;flex:none;font-size:.9rem}
+/* services */
+.services{background:var(--mist)}
+.shead{text-align:center;max-width:680px;margin:0 auto 46px}.shead .lead{margin-left:auto;margin-right:auto}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.sc{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}
+.sc:hover{transform:translateY(-8px);box-shadow:var(--shadow)}
+.sc .top{height:190px;position:relative;overflow:hidden;background:var(--navy);color:#fff;display:grid;place-items:center}
+.sc .top img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.sc:hover .top img{transform:scale(1.07)}
+.sc .top .i{width:70px;height:70px;stroke-width:1.5}
+.sc .top.pat::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.16) 1.3px,transparent 1.6px);background-size:20px 20px}
+.sc .top.pat .i{position:relative}
+.sc .body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
+.sc p{color:var(--muted);font-size:.96rem;margin-top:8px}
+.sc a{margin-top:auto;padding-top:16px;color:var(--red);font-weight:800;text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.sc a:hover{gap:12px}
+.curb{margin-top:26px;background:var(--red);color:#fff;border-radius:20px;padding:20px 28px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;font-weight:800;font-size:1.1rem}
+.curb a{color:#fff;font-weight:800}
+/* promo */
+.promo{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.promo::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.1) 1.3px,transparent 1.6px);background-size:24px 24px}
+.promo .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.promo h2{color:#fff}.promo .lead{color:#d3d5ea}.promo .eyebrow{color:#ff6c84}.promo .eyebrow::before{background:#ff6c84}
+.plist{list-style:none;margin:26px 0 30px;padding:0;display:grid;gap:12px}
+.plist li{display:flex;gap:12px;align-items:center;font-weight:600}
+.poster{justify-self:center;max-width:440px;width:100%;border-radius:22px;overflow:hidden;box-shadow:0 36px 60px -26px rgba(0,0,0,.7);transform:rotate(2deg);border:6px solid #fff;transition:transform .4s}
+.poster:hover{transform:rotate(0)}
+/* mvv */
+.mvv{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.mc{border:1px solid var(--line);border-radius:22px;padding:30px;background:#fff}
+.mc .fic{margin-bottom:18px;background:var(--navy)}
+.mc p{color:var(--muted);margin-top:10px}
+.vals{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.vals span{background:var(--mist);color:var(--navy);font-weight:700;font-size:.88rem;padding:6px 14px;border-radius:999px}
+/* gallery */
+.gallery{background:var(--mist)}
+.gal{columns:4;column-gap:16px}
+.gal button{display:block;width:100%;margin:0 0 16px;padding:0;border:0;border-radius:18px;overflow:hidden;cursor:zoom-in;position:relative;background:var(--navy);break-inside:avoid}
+.gal img{width:100%;height:auto;transition:transform .5s,opacity .3s}
+.gal button:hover img{transform:scale(1.06);opacity:.88}
+.gal button::after{content:"+";position:absolute;right:12px;bottom:12px;width:38px;height:38px;border-radius:50%;background:var(--red);color:#fff;font:700 1.4rem/38px 'Mulish';text-align:center;opacity:0;transform:scale(.6);transition:.3s}
+.gal button:hover::after,.gal button:focus-visible::after{opacity:1;transform:none}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(15,15,16,.92);display:none;align-items:center;justify-content:center;padding:20px}
+.lb.open{display:flex}.lb img{max-height:88vh;max-width:min(92vw,900px);border-radius:14px}
+.lb button{position:absolute;border:0;background:#fff;color:var(--navy);width:48px;height:48px;border-radius:50%;font-size:1.5rem;cursor:pointer}
+.lb .x{top:18px;right:18px}.lb .pv{left:14px;top:50%}.lb .nx{right:14px;top:50%}
+/* contact */
+.cgrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;margin-top:44px;align-items:start}
+.cinfo{display:grid;gap:14px}
+.ci{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 20px;text-decoration:none;transition:transform .25s,border-color .25s}
+.ci:hover{transform:translateX(6px);border-color:var(--red)}
+.ci .fic{width:48px;height:48px}.ci small{display:block;color:var(--muted);font-size:.82rem}.ci b{color:var(--navy);font-size:1.02rem;overflow-wrap:anywhere}
+.ci.fb .fic{background:#1877f2}.ci.wa .fic{background:#1fa855}.ci.ml .fic{background:var(--navy)}
+form{background:var(--navy);color:#fff;border-radius:26px;padding:34px;display:grid;gap:16px;box-shadow:var(--shadow)}
+form h3{color:#fff}
+label{display:grid;gap:7px;font-weight:700;font-size:.9rem}
+input,select,textarea{width:100%;font:inherit;color:var(--ink);background:#fff;border:2px solid transparent;border-radius:12px;padding:13px 14px}
+textarea{min-height:96px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--red)}
+form .note{color:#c9cbe4;font-size:.84rem}
+.map{margin-top:34px;border-radius:26px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow)}
+.map iframe{display:block;width:100%;height:380px;border:0}
+/* footer */
+footer{background:var(--ink);color:#d7d7d8;padding:64px 0 30px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+.fg img{height:70px;background:#fff;border-radius:12px;padding:6px}
+.fg h4{color:#fff;margin:0 0 14px;font-size:1.05rem}
+.fg p,.fg a{color:#b9b9ba;text-decoration:none;display:block;margin:6px 0}.fg a:hover{color:#fff}
+.copy{margin-top:40px;padding-top:22px;border-top:1px solid #2a2a2c;font-size:.88rem;color:#8b8b8a;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+.fabs{position:fixed;right:16px;bottom:16px;z-index:40;display:grid;gap:10px}
+.fab{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 12px 24px -8px rgba(0,0,0,.5);transition:transform .25s}.fab:hover{transform:scale(1.1)}
+.cico{width:54px;height:54px;border-radius:14px;object-fit:contain;flex:none;background:#fff;box-shadow:0 0 0 1px var(--line)}
+.fab{width:56px;height:56px;border-radius:16px;background:#fff;overflow:hidden;padding:0}.fab img{width:100%;height:100%;object-fit:cover}
+.fg a.ic{display:flex;align-items:center;gap:10px}.fg a.ic img{width:24px;height:24px;border-radius:6px;background:#fff;flex:none}
+
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.js .rv.in{opacity:1;transform:none}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+@media(max-width:1000px){.gal{columns:3}.sgrid{grid-template-columns:1fr 1fr}.fgrid,.mvv{grid-template-columns:1fr}.fg{grid-template-columns:1fr 1fr}}
+@media(max-width:860px){
+ section{padding:70px 0}
+ .menu{display:grid}
+ .nav{position:absolute;left:0;right:0;top:calc(100% + 10px);margin:0;background:#fff;border-radius:18px;padding:22px;flex-direction:column;align-items:flex-start;gap:16px;box-shadow:0 24px 44px -20px rgba(15,15,16,.6);display:none}
+ .nav.open{display:flex}.nav .btn{width:100%}
+ .hero{padding:128px 0 150px}.hero .wrap,.about .wrap,.promo .wrap,.cgrid{grid-template-columns:1fr}
+ .hero-art{justify-self:center;max-width:400px;margin-right:22px}.chip.c1{left:-12px}.chip.c2{right:-30px}
+ .about .wrap{gap:50px}.promo .wrap{gap:44px}
+}
+@media(max-width:600px){.gal{columns:2;column-gap:12px}.gal button{margin-bottom:12px}.sgrid{grid-template-columns:1fr}.ticks{grid-template-columns:1fr}.fg{grid-template-columns:1fr}.stack .a{width:92%}form{padding:26px 20px}.chip.c2{display:none}.bar{gap:10px}.brand img{height:44px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+/* ===== motion ===== */
+@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+@keyframes imgin{from{clip-path:inset(0 0 100% 0 round 30px);opacity:.2}to{clip-path:inset(0 0 0 0 round 30px 120px 30px 30px);opacity:1}}
+@keyframes slidein{from{transform:translate(40px,40px);opacity:0}to{transform:none;opacity:1}}
+@keyframes wordin{from{opacity:0;transform:translateY(.45em) scale(.96)}to{opacity:1;transform:none}}
+@keyframes rise{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:.7}100%{transform:translateY(-110vh) scale(1.1);opacity:0}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(234,0,41,.55)}70%,100%{box-shadow:0 0 0 18px rgba(234,0,41,0)}}
+@keyframes glow{0%{box-shadow:0 0 0 0 rgba(31,168,85,.6)}70%,100%{box-shadow:0 0 0 18px rgba(31,168,85,0)}}
+@keyframes bob{50%{transform:translateY(-8px) rotate(4deg)}}
+@keyframes slide{to{transform:translateX(-50%)}}
+@keyframes drop{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+.prog{position:fixed;top:0;left:0;right:0;height:4px;background:var(--red);transform:scaleX(0);transform-origin:left;z-index:120}
+header{transition:transform .45s cubic-bezier(.2,.8,.2,1)}header.hide{transform:translateY(-130%)}
+.hero .pill{animation:up .8s .1s both}.hero h1{animation:up .9s .25s both}.hero p.sub{animation:up .9s .45s both}.hero .acts{animation:up .9s .65s both}
+.hero-art::before{animation:slidein 1s .5s both cubic-bezier(.2,.8,.2,1)}
+.hero-art .ph{animation:imgin 1.2s .3s both cubic-bezier(.2,.8,.2,1)}
+.hero-art .ph img{will-change:transform;transform:scale(1.1)}
+.chip.c1{animation:pop .6s 1.1s both,float 5s 1.7s ease-in-out infinite}.chip.c2{animation:pop .6s 1.4s both,float 6s 2s ease-in-out infinite}
+em.rot{display:inline-block}.rot.swap{animation:wordin .6s both}
+.hero .btn:not(.ghost){animation:up .9s .65s both,pulse 2.4s 2s infinite}
+.rb{position:absolute;bottom:-50px;border:2px solid rgba(255,255,255,.4);border-radius:50%;animation:rise linear infinite;pointer-events:none}
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;left:-70%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.4),transparent);transform:skewX(-20deg);transition:left .7s}
+.btn:hover::after{left:130%}
+.fic{transition:transform .4s cubic-bezier(.3,1.6,.5,1)}.fcard:hover .fic,.mc:hover .fic{transform:rotate(-10deg) scale(1.12)}
+.fcard,.mc{transition:transform .3s,box-shadow .3s}.mc:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.sc .top.pat .i{animation:bob 3.2s ease-in-out infinite}
+.sc .top.pat{transition:background .4s}.sc:hover .top.pat{background:var(--red)}
+.marq{background:var(--red);color:#fff;overflow:hidden;transform:rotate(-1.4deg);margin:34px -24px;padding:16px 0;box-shadow:0 14px 30px -18px rgba(234,0,41,.8)}
+.marq .track{display:flex;gap:28px;white-space:nowrap;width:max-content;animation:slide 26s linear infinite;font-weight:800;font-size:1.25rem;letter-spacing:.12em;text-transform:uppercase}
+.marq i{font-style:normal;opacity:.6}
+.marq:hover .track{animation-play-state:paused}
+.js .rv{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+.js .rv.l{transform:translateX(-60px)}.js .rv.r{transform:translateX(60px)}.js .rv.z{transform:scale(.88)}
+.js .rv.in{opacity:1;transform:none}
+.js .rv .eyebrow::before{width:0;transition:width .8s .3s}.js .rv.in .eyebrow::before{width:28px}
+.js .rv .ticks li,.js .rv .plist li{opacity:0;transform:translateX(-18px);transition:opacity .5s,transform .5s}
+.js .rv.in .ticks li,.js .rv.in .plist li{opacity:1;transform:none}
+.rv.in .ticks li:nth-child(1),.rv.in .plist li:nth-child(1){transition-delay:.4s}.rv.in .ticks li:nth-child(2),.rv.in .plist li:nth-child(2){transition-delay:.55s}.rv.in .ticks li:nth-child(3),.rv.in .plist li:nth-child(3){transition-delay:.7s}.rv.in .ticks li:nth-child(4),.rv.in .plist li:nth-child(4){transition-delay:.85s}
+.tk{transition:transform .3s}li:hover .tk{transform:scale(1.2) rotate(-8deg)}
+.stack .a,.stack .b{transition:transform .5s}.stack:hover .a{transform:rotate(-1.5deg) scale(1.02)}.stack:hover .b{transform:rotate(2deg) scale(1.04)}
+.ci .cico{transition:transform .4s cubic-bezier(.3,1.6,.5,1)}.ci:hover .cico{transform:scale(1.12) rotate(-6deg)}
+.fab{position:relative;transition:transform .3s}.fab.w{animation:glow 2.2s 2s infinite}.fab.c{animation:pulse 2.6s 3s infinite}
+.nav.open{animation:drop .3s both}
+.lb.open{animation:fadein .25s both}.lb.open img{animation:pop .35s both}
+.curb{transition:transform .3s}.curb:hover{transform:scale(1.015)}
+.poster{animation:bob 6s ease-in-out infinite}.poster:hover{animation-play-state:paused}
+@media(max-width:860px){.marq{margin:24px -24px}}
+
+/* red borders around gallery photos */
+.gal button{border:1.5px solid var(--red);background:var(--red);transition:box-shadow .3s,border-color .3s}
+.gal button:hover{box-shadow:0 16px 30px -14px rgba(234,0,41,.7)}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<header id="top"><div class="bar">
+ <a class="brand" href="#top" aria-label="Ideal Cleaning Services Ltd"><img src="images/logo.png" alt="Ideal Cleaning Services logo"></a>
+ <nav class="nav" id="nav"><a href="#top">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#contact">Contact</a><a class="btn" href="#contact">Get a Quote</a></nav>
+ <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+ <div>
+  <div class="pill"><i></i>Fast, reliable and affordable service</div>
+  <h1>Your trusted partner for <em class="rot" id="rot">clean</em> environments</h1>
+  <p class="sub">Ideal Cleaning Services Ltd is a proudly Zambian company delivering exceptional cleaning, sanitary and pest control services for homes, offices, schools and commercial spaces.</p>
+  <div class="acts"><a class="btn" href="#contact">Request Service</a><a class="btn ghost" href="#services">Discover More <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+ </div>
+ <div class="hero-art">
+  <span class="bub b1"></span><span class="bub b2"></span><span class="bub b3"></span>
+  <div class="ph"><img src="images/windows.jpg" alt="Ideal Cleaning team washing a large window" fetchpriority="high"></div>
+  <div class="chip c1"><span class="dot"><svg class="i" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" fill="currentColor" stroke="none"/></svg></span><span><b class="cnt" data-to="1.1">1.1</b>K followers<small>on Facebook</small></span></div>
+  <div class="chip c2"><span class="dot"><svg class="i" viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7M7 19.5a1.5 1.5 0 1 0 0-.01M17 19.5a1.5 1.5 0 1 0 0-.01"/></svg></span><span>Curbside pickup<small>available</small></span></div>
+ </div>
+</div></section>
+
+<section class="features"><div class="wrap"><div class="fgrid">
+ <div class="fcard rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><div><h3>Integrity</h3><p>Honest work and clear prices, so you always know what to expect from our team.</p></div></div>
+ <div class="fcard rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg></span><div><h3>Professionalism</h3><p>Trained staff, proper equipment and tidy, on-time service every visit.</p></div></div>
+ <div class="fcard rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2.5 4 2.5S16 14 16 14M9 9.5h.01M15 9.5h.01"/></svg></span><div><h3>Customer satisfaction</h3><p>We are not done until your space is clean, safe and you are happy with it.</p></div></div>
+</div></div></section>
+
+<section class="about" id="about"><div class="wrap">
+ <div class="stack rv l"><div class="a"><img src="images/hallway-team.jpg" alt="Ideal Cleaning team polishing a hallway floor" loading="lazy"></div><div class="b"><img src="images/bathroom-machine.jpg" alt="Cleaner using a floor machine in a bathroom" loading="lazy"></div></div>
+ <div class="rv r">
+  <span class="eyebrow">About us</span>
+  <h2>Clean homes, happy clients, every single day.</h2>
+  <p class="lead">Ideal Cleaning Services Limited is a proudly Zambian company committed to excellence, integrity and customer satisfaction. We create clean, safe and healthy environments for homes, offices, schools, hospitals and commercial spaces.</p>
+  <ul class="ticks"><li><span class="tk">✓</span>Clean homes, happy hearts</li><li><span class="tk">✓</span>Sparkling every space</li><li><span class="tk">✓</span>Purify. Refresh. Revitalize.</li><li><span class="tk">✓</span>Quality cleaning at affordable prices</li></ul>
+  <div class="acts"><a class="btn navy" href="#contact">Book a cleaning</a></div>
+ </div>
+</div></section>
+
+<div class="marq" aria-hidden="true"><div class="track"><span>Cleaning</span><i>✦</i><span>Sanitary</span><i>✦</i><span>Pest control</span><i>✦</i><span>Landscaping</span><i>✦</i><span>Curbside pickup</span><i>✦</i><span>Affordable prices</span><i>✦</i><span>Cleaning</span><i>✦</i><span>Sanitary</span><i>✦</i><span>Pest control</span><i>✦</i><span>Landscaping</span><i>✦</i><span>Curbside pickup</span><i>✦</i><span>Affordable prices</span><i>✦</i></div></div>
+
+<section class="services" id="services"><div class="wrap">
+ <div class="shead rv"><span class="eyebrow">Our services</span><h2>We take pride in our services</h2><p class="lead">From daily housekeeping to deep cleaning, sanitation, pest control and landscaping, we provide professional, reliable and affordable solutions.</p></div>
+ <div class="sgrid">
+  <article class="sc rv"><div class="top"><img src="images/kitchen.jpg" alt="Spotless kitchen after cleaning" loading="lazy"></div><div class="body"><h3>Residential cleaning</h3><p>From regular housekeeping to deep cleaning, we leave your home spotless.</p><a href="#contact" data-svc="Residential cleaning">Request this service <span>→</span></a></div></article>
+  <article class="sc rv"><div class="top"><img src="images/boardroom.jpg" alt="Clean boardroom" loading="lazy"></div><div class="body"><h3>Commercial &amp; office cleaning</h3><p>Daily, weekly or monthly cleaning plans tailored to your business needs.</p><a href="#contact" data-svc="Commercial &amp; office cleaning">Request this service <span>→</span></a></div></article>
+  <article class="sc rv"><div class="top"><img src="images/bathroom.jpg" alt="Clean, sanitised bathroom" loading="lazy"></div><div class="body"><h3>Sanitary services</h3><p>Reliable sanitation that ensures a clean, hygienic and healthy environment.</p><a href="#contact" data-svc="Sanitary services">Request this service <span>→</span></a></div></article>
+  <article class="sc rv"><div class="top pat"><svg class="i" viewBox="0 0 24 24"><path d="M8 9a4 4 0 0 1 8 0v6a4 4 0 0 1-8 0z"/><path d="M12 5V3M4 8l3 2M20 8l-3 2M3 14h4M17 14h4M5 20l3-2M19 20l-3-2M9 5L7.5 3M15 5l1.5-2"/></svg></div><div class="body"><h3>Pest control</h3><p>Safe and effective pest control solutions for your home and business.</p><a href="#contact" data-svc="Pest control">Request this service <span>→</span></a></div></article>
+  <article class="sc rv"><div class="top pat"><svg class="i" viewBox="0 0 24 24"><path d="M12 21v-8"/><path d="M12 13c-4 0-7-3-7-8 5 0 7 3 7 8zM12 13c4 0 7-3 7-8-5 0-7 3-7 8z"/></svg></div><div class="body"><h3>Landscaping</h3><p>Neat lawns, gardens and outdoor spaces that keep your property looking its best.</p><a href="#contact" data-svc="Landscaping">Request this service <span>→</span></a></div></article>
+  <article class="sc rv"><div class="top"><img src="images/windows.jpg" alt="Window cleaning" loading="lazy" style="object-position:50% 35%"></div><div class="body"><h3>Specialised cleaning</h3><p>Sofa and upholstery cleaning, post-construction cleaning, window cleaning and more.</p><a href="#contact" data-svc="Specialised cleaning">Request this service <span>→</span></a></div></article>
+ </div>
+ <div class="curb rv"><span>Curbside pickup available for your convenience.</span><a href="tel:+260763213466">Call 0763 213 466 →</a></div>
+</div></section>
+
+<section class="promo"><div class="wrap">
+ <div class="rv l">
+  <span class="eyebrow">Post-construction cleaning</span>
+  <h2>Leave the hard work to us.</h2>
+  <p class="lead">We provide thorough, professional post-construction cleaning to make your new space clean, safe and ready for use.</p>
+  <ul class="plist"><li><span class="tk">✓</span>Removal of construction dust and debris</li><li><span class="tk">✓</span>Cleaning of floors, walls and windows</li><li><span class="tk">✓</span>Deep cleaning of fixtures and fittings</li><li><span class="tk">✓</span>Final polish for a spotless finish</li></ul>
+  <a class="btn" href="#contact" data-svc="Specialised cleaning">Get a quote</a>
+ </div>
+ <div class="poster rv z"><img src="images/poster.jpg" alt="Ideal Cleaning post-construction cleaning poster" loading="lazy"></div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="shead rv"><span class="eyebrow">What drives us</span><h2>Our mission, vision and values</h2></div>
+ <div class="mvv">
+  <div class="mc rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span><h3>Our mission</h3><p>To provide high quality, efficient and affordable cleaning, pest control and sanitary services that create clean, safe and healthy environments.</p></div>
+  <div class="mc rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><h3>Our vision</h3><p>To be Zambia’s leading cleaning and facility care service provider, renowned for professionalism, reliability and innovation.</p></div>
+  <div class="mc rv"><span class="fic"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></svg></span><h3>Our values</h3><div class="vals"><span>Integrity</span><span>Professionalism</span><span>Reliability</span><span>Customer satisfaction</span><span>Teamwork</span><span>Excellence</span></div></div>
+ </div>
+</div></section>
+
+<section class="gallery" id="work"><div class="wrap">
+ <div class="shead rv"><span class="eyebrow">Our work</span><h2>Spaces we have left sparkling</h2><p class="lead">Tap any photo to see it larger.</p></div>
+ <div class="gal" id="gal">
+  <button type="button"><img src="images/hall-floor.jpg" alt="Polished marble-look hallway floor" loading="lazy"></button>
+  <button type="button"><img src="images/reception.jpg" alt="Clean office reception" loading="lazy"></button>
+  <button type="button"><img src="images/kitchen.jpg" alt="Clean kitchen with shiny floor" loading="lazy"></button>
+  <button type="button"><img src="images/team-laptop.jpg" alt="Ideal Cleaning team member at her desk" loading="lazy"></button>
+  <button type="button"><img src="images/bedroom.jpg" alt="Clean bedroom with glossy tiles" loading="lazy"></button>
+  <button type="button"><img src="images/boardroom.jpg" alt="Boardroom ready for meetings" loading="lazy"></button>
+  <button type="button"><img src="images/bathroom.jpg" alt="Sanitised bathroom" loading="lazy"></button>
+  <button type="button"><img src="images/windows.jpg" alt="Team cleaning windows with ladders" loading="lazy"></button>
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <div class="shead rv"><span class="eyebrow">Contact us</span><h2>Let’s make your space shine</h2><p class="lead">Call, message or send a request below. We will get back to you quickly.</p></div>
+ <div class="cgrid">
+  <div class="cinfo rv l">
+   <a class="ci" href="tel:+260763213466"><img class="cico" src="images/icon-call.png" alt=""><span><small>Call us</small><b>0763 213 466</b></span></a>
+   <a class="ci wa" data-wa href="#" target="_blank" rel="noopener"><img class="cico" src="images/icon-whatsapp.png" alt=""><span><small>WhatsApp</small><b>Chat with us</b></span></a>
+   <a class="ci ml" href="mailto:idealcleaning9@gmail.com"><img class="cico" src="images/icon-gmail.png" alt=""><span><small>Email</small><b>idealcleaning9@gmail.com</b></span></a>
+   <a class="ci fb" href="https://web.facebook.com/idealcleaningservices.1" target="_blank" rel="noopener"><span class="fic"><svg class="i" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" fill="currentColor" stroke="none"/></svg></span><span><small>Facebook · 1.1K followers</small><b>Ideal Cleaning Services</b></span></a>
+   <div class="ci" style="cursor:default"><img class="cico" src="images/icon-location.png" alt=""><span><small>Find us</small><b>Plot 220/21, behind Cosmopolitan Mall, Makeni, Lusaka</b></span></div>
+  </div>
+  <form id="quote" class="rv r">
+   <h3>Request a service</h3>
+   <label>Your name<input name="name" required autocomplete="name"></label>
+   <label>Phone number<input name="phone" type="tel" required autocomplete="tel"></label>
+   <label>Service needed<select name="service" id="svc"><option>Residential cleaning</option><option>Commercial &amp; office cleaning</option><option>Sanitary services</option><option>Pest control</option><option>Landscaping</option><option>Specialised cleaning</option><option>Not sure yet</option></select></label>
+   <label>Tell us more (optional)<textarea name="msg" placeholder="Where, how big, when would you like us?"></textarea></label>
+   <button class="btn" type="submit">Send on WhatsApp</button>
+   <p class="note">This opens WhatsApp with your request ready to send. We will confirm once we reply.</p>
+  </form>
+ </div>
+ <div class="map rv z"><iframe title="Ideal Cleaning Services location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=-15.458571923706,28.283787&z=16&output=embed"></iframe></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="fg">
+  <div><img src="images/logo.png" alt="Ideal Cleaning Services"><p style="margin-top:14px;max-width:34ch">Your clean environment, our priority. Quality cleaning at affordable prices.</p></div>
+  <div><h4>Quick links</h4><a href="#about">About us</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#contact">Contact</a></div>
+  <div><h4>Get in touch</h4><a class="ic" href="tel:+260763213466"><img src="images/icon-call.png" alt="">0763 213 466</a><a class="ic" href="mailto:idealcleaning9@gmail.com"><img src="images/icon-gmail.png" alt="">idealcleaning9@gmail.com</a><a href="https://web.facebook.com/idealcleaningservices.1" target="_blank" rel="noopener">Facebook</a></div>
+ </div>
+ <div class="copy"><span>© 2026 Ideal Cleaning Services Ltd. All rights reserved.</span><span>Lusaka, Zambia</span></div>
+</div></footer>
+
+<div class="fabs"><a class="fab w" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="images/icon-whatsapp.png" alt=""></a><a class="fab c" href="tel:+260763213466" aria-label="Call"><img src="images/icon-call.png" alt=""></a></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer"><button class="x" id="lx" aria-label="Close">&times;</button><button class="pv" id="lp" aria-label="Previous">&#8249;</button><img id="li" alt=""><button class="nx" id="ln" aria-label="Next">&#8250;</button></div>
+
+<script>
+document.documentElement.classList.add('js');
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const PHONE='260763213466';
+/* menu */
+const menu=$('#menu'),nav=$('#nav');
+const setMenu=o=>{nav.classList.toggle('open',o);menu.setAttribute('aria-expanded',o)};
+menu.onclick=e=>{e.stopPropagation();setMenu(!nav.classList.contains('open'))};
+nav.onclick=e=>{if(e.target.closest('a'))setMenu(false)};
+document.addEventListener('click',e=>{if(!e.target.closest('.bar'))setMenu(false)});
+/* reveal (staggered, then drop animation classes so hovers stay snappy) */
+$$('#gal button').forEach(b=>b.classList.add('rv','z'));
+$$('.fgrid,.sgrid,.mvv,.gal,.cinfo').forEach(g=>[...g.children].forEach((c,i)=>c.style.transitionDelay=(i*90)+'ms'));
+const done=el=>setTimeout(()=>{el.classList.remove('rv','in','l','r','z');el.style.transitionDelay=''},1700);
+if('IntersectionObserver'in window){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);done(e.target)}}),{threshold:.12});$$('.rv').forEach(e=>io.observe(e))}else $$('.rv').forEach(e=>e.classList.add('in'));
+/* rotating headline word */
+const rot=$('#rot'),words=['clean','safe','healthy','spotless'];let wi=0;
+setInterval(()=>{wi=(wi+1)%words.length;rot.classList.remove('swap');void rot.offsetWidth;rot.textContent=words[wi];rot.classList.add('swap')},2600);
+/* count-up */
+const cnt=$('.cnt');if(cnt&&!matchMedia('(prefers-reduced-motion:reduce)').matches){const to=+cnt.dataset.to;let t0=null;cnt.textContent='0.0';const step=t=>{t0=t0||t;const k=Math.min((t-t0)/1800,1);cnt.textContent=(to*(1-Math.pow(1-k,3))).toFixed(1);if(k<1)requestAnimationFrame(step)};setTimeout(()=>requestAnimationFrame(step),1200)}
+/* rising bubbles in hero */
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){const hero=$('.hero');for(let i=0;i<12;i++){const b=document.createElement('i'),z=10+Math.random()*34;b.className='rb';b.style.cssText=`width:${z}px;height:${z}px;left:${Math.random()*100}%;animation-duration:${9+Math.random()*10}s;animation-delay:${-Math.random()*14}s`;hero.appendChild(b)}}
+/* scroll: progress bar, hide/show header, hero photo parallax */
+const hd=$('header'),pr=$('#prog'),ph=$('.hero-art .ph img');let lastY=0,tick=false;
+addEventListener('scroll',()=>{if(tick)return;tick=true;requestAnimationFrame(()=>{const y=scrollY,max=document.documentElement.scrollHeight-innerHeight;pr.style.transform='scaleX('+(max>0?y/max:0)+')';if(y>260&&y>lastY+4&&!nav.classList.contains('open'))hd.classList.add('hide');else if(y<lastY-4||y<200)hd.classList.remove('hide');lastY=y;if(y<900)ph.style.transform='translateY('+(y*.07)+'px) scale(1.1)';tick=false})},{passive:true});
+/* whatsapp links */
+$$('[data-wa]').forEach(a=>a.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent('Hello Ideal Cleaning Services, I would like to ask about your services.'));
+/* service buttons preselect */
+$$('[data-svc]').forEach(a=>a.addEventListener('click',()=>{const v=a.dataset.svc.replace('&amp;','&');[...$('#svc').options].forEach(o=>{if(o.textContent===v)$('#svc').value=o.value})}));
+/* form */
+$('#quote').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const m=`Hello Ideal Cleaning Services, I would like to request a service.\nName: ${f.get('name')}\nPhone: ${f.get('phone')}\nService: ${f.get('service')}\nDetails: ${f.get('msg')||'-'}`;window.open('https://wa.me/'+PHONE+'?text='+encodeURIComponent(m),'_blank','noopener')};
+/* lightbox */
+const imgs=$$('#gal img'),lb=$('#lb'),li=$('#li');let cur=0;
+const show=i=>{cur=(i+imgs.length)%imgs.length;li.src=imgs[cur].src;li.alt=imgs[cur].alt};
+imgs.forEach((im,i)=>im.parentElement.onclick=()=>{show(i);lb.classList.add('open');document.body.style.overflow='hidden';$('#lx').focus()});
+const close=()=>{lb.classList.remove('open');document.body.style.overflow=''};
+$('#lx').onclick=close;$('#lp').onclick=()=>show(cur-1);$('#ln').onclick=()=>show(cur+1);
+lb.onclick=e=>{if(e.target===lb)close()};
+addEventListener('keydown',e=>{if(e.key==='Escape'){close();setMenu(false)}if(lb.classList.contains('open')){if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)}});
+</script>
+</body>
+</html>
